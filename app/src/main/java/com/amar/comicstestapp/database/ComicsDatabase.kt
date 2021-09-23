@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 import com.amar.comicstestapp.model.Comic
 
 
-@Database(entities = [Comic::class], version = 3)
+@Database(entities = [Comic::class], version = 1)
 abstract class ComicsDatabase: RoomDatabase() {
 
     abstract fun comicDao(): ComicDAO

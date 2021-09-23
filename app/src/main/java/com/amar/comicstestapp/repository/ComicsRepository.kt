@@ -37,7 +37,6 @@ class ComicsRepository @Inject constructor(
                 {
                     200 ->{
 
-                        //list2 = comicDao.getAllComics() as ArrayList<Comic>
                         list.addAll(response.body()?.data?.results ?: arrayListOf())
                         comicList.value = list
 
